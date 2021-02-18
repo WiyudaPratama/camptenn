@@ -57,7 +57,7 @@
               </h1>
               <p>With us enjoy cheap, and delicious meals of course</p>
               <div class="btn-menu">
-                <a href="#" class="btn btn-menu-decide">
+                <a data-easing="easeInOutCubic" href="#kategori" class="btn btn-menu-decide">
                   Decide a Menu
                 </a>
               </div>
@@ -73,7 +73,7 @@
 
   <main>
     <!-- Kategori Menu -->
-    <section class="section-kategori mt-5 pb-5">
+    <section class="section-kategori mt-5 pb-5" id="kategori">
       <div class="container">
         <div class="row text-center">
           <div class="col-12">
@@ -268,5 +268,13 @@
 
   <script src="/frontend/library/jquery/jquery-3.5.1.min.js"></script>
   <script src="/frontend/library/js/bootstrap.min.js"></script>
+  <script src="/frontend/library/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    var easeInOutCubic = new SmoothScroll('[data-easing="easeInOutCubic"]', {
+      easing: 'easeInOutCubic',
+      speed: 800,
+      speedAsDuration: true
+    });
+  </script>
 </body>
 </html>
