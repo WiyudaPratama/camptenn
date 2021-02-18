@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampTenn</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="/frontend/library/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/frontend/style/main.css">
+
+</head>
+<body>
+
+  <!-- navbar -->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a href="#" class="navbar-brand">
+        <img src="/frontend/image/logo.png" alt="Logo CampTeen" height="30px">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item mr-lg-4 mr-sm-0">
+            <a href="#" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item mr-lg-4 mr-sm-0">
+            <a href="#" class="nav-link">Foods</a>
+          </li>
+          <li class="nav-item mr-lg-4 mr-sm-0">
+            <a href="#" class="nav-link">Drinks</a>
+          </li>
+        </ul>
+        <!-- Mobile Button -->
+        <a href="#" class="d-sm-block d-md-none btn btn-login btn-block ml-sm-0">
+          Login
+        </a>
+        <!-- Dekstop Button -->
+        <a href="#" class="my-2 my-lg-0 d-none d-md-block btn btn-login ml-lg-4">
+          Login
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Banner -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-6 d-flex align-items-center left-content">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1>Cheap And Friendly Food, <br>
+                Only In The Canteen Campus
+              </h1>
+              <p>With us enjoy cheap, and delicious meals of course</p>
+              <div class="btn-menu">
+                <a href="#" class="btn btn-menu-decide">
+                  Decide a Menu
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 right-content">
+          <img src="/frontend/image/banner.jpg" alt="Banner" class="mx-auto d-block">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Kategori Menu -->
+    <section class="section-kategori mt-5 pb-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12">
+            <h2>Pilih Yang Kamu Suka</h2>
+            <a href="#" class="mx-4 menu-kategori active">Semua</a>
+            <a href="#" class="mx-4 menu-kategori">Makanan</a>
+            <a href="#" class="mx-4 menu-kategori">Minuman</a>
+          </div>
+        </div>
+        <div class="row mt-4 search-menu">
+          <div class="col-12">
+            <form action="#">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="search-menu"><img src="/frontend/icon/search.png" alt="" class="w-75 mx-auto d-block"></span>
+                </div>
+                <input type="text" class="form-control" placeholder="Cari makanan" aria-describedby="search-menu" autofocus>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row menu-pilihan mt-4">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card">
+              <a href="checkout.html">
+                <img src="/frontend/image/salad.jpg" class="card-img-top" width="200px" alt="...">
+              </a>
+              <div class="card-body text-center">
+                <h5 class="card-title">Salad</h5>
+                <p class="card-text">Aneka Salad</p>
+                <img src="/frontend/image/stars.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card">
+              <a href="#">
+                <img src="/frontend/image/coffee.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body text-center">
+                <h5 class="card-title">Coffee</h5>
+                <p class="card-text">Kafe Mahasiswa</p>
+                <img src="/frontend/image/stars.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card">
+              <a href="#">
+                <img src="/frontend/image/chocolate.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body text-center">
+                <h5 class="card-title">Chocolate</h5>
+                <p class="card-text">Kafe Mahasiswa</p>
+                <img src="/frontend/image/stars.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card">
+              <a href="#">
+                <img src="/frontend/image/burger.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body text-center">
+                <h5 class="card-title">Burger</h5>
+                <p class="card-text">Burger Enak</p>
+                <img src="/frontend/image/stars.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card">
+              <a href="#">
+                <img src="/frontend/image/salad.jpg" class="card-img-top" width="200px" alt="...">
+              </a>
+              <div class="card-body text-center">
+                <h5 class="card-title">Salad</h5>
+                <p class="card-text">Aneka Salad</p>
+                <img src="/frontend/image/stars.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card">
+              <a href="#">
+                <img src="/frontend/image/coffee.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body text-center">
+                <h5 class="card-title">Coffee</h5>
+                <p class="card-text">Kafe Mahasiswa</p>
+                <img src="/frontend/image/stars.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card">
+              <a href="#">
+                <img src="/frontend/image/chocolate.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body text-center">
+                <h5 class="card-title">Chocolate</h5>
+                <p class="card-text">Kafe Mahasiswa</p>
+                <img src="/frontend/image/stars.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card">
+              <a href="#">
+                <img src="/frontend/image/burger.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body text-center">
+                <h5 class="card-title">Burger</h5>
+                <p class="card-text">Burger Enak</p>
+                <img src="/frontend/image/stars.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Info -->
+    <section class="section-info mt-5">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-12 col-lg-6 pt-3">
+            <img src="/frontend/icon/food.png" alt="">
+            <h5>Makan Sepuasnya</h5>
+            <p>Pilih menu makananmu sepuasnya tanpa batasan dan ramah kantongan</p>
+          </div>
+          <div class="col-12 col-lg-6 pt-3">
+            <img src="/frontend/icon/payment.png" alt="">
+            <h5>Nikmati Murahnya</h5>
+            <p>Rasakan nikmatnya dan rasakan murahnya</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-12 col-lg-3 d-flex align-items-center">
+          <div class="row">
+            <div class="col-lg-12">
+              <img src="/frontend/image/logo.png" alt="Logo">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <h5>Makanan Popular</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Burger</a></li>
+            <li><a href="#">Ayam Geprek</a></li>
+            <li><a href="#">Bakso</a></li>
+            <li><a href="#">Nasi Padang</a></li>
+          </ul>
+          <h5>Support Kami</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">021-678-0921</a></li>
+            <li><a href="#">camptenn@gmail.com</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5>Minuman Popular</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Coffee Blend</a></li>
+            <li><a href="#">Jus</a></li>
+            <li><a href="#">Soft Buah</a></li>
+            <li><a href="#">Boba</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5>Bantuan</h5>
+          <u class="list-unstyled">
+            <li><a href="#">Bantuan</a></li>
+            <li><a href="#">Yuk Jadi Mitra Kami</a></li>
+          </u>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center pt-5 border-top pb-5">
+        <div class="col-auto text-muted">
+          All Rights Reserved CampTeen by WiyudaPratama 2021
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/frontend/library/jquery/jquery-3.5.1.min.js"></script>
+  <script src="/frontend/library/js/bootstrap.min.js"></script>
+</body>
+</html>
