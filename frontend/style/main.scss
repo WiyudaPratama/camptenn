@@ -218,6 +218,35 @@ footer {
   }
 }
 
+// Login 
+.section-login {
+  min-height: 100vh;
+  .card {
+    .card-body {
+      h1 {
+        font-size: 32px;
+        color: #272042;
+        font-weight: bold;
+      }
+      p {
+        color: #8B8BA5;
+        font-weight: 400;
+      }
+      .form-control {
+        border-radius: 50px;
+        height: 50px;
+      }
+      .btn-login {
+        background-color: #F7C531;
+        border-radius: 50px;
+        &:hover {
+          background-color: #face49;
+        }
+      }
+    }
+  }
+}
+
 // Responsive
 @media (max-width: 1024px) {
   .jumbotron {
