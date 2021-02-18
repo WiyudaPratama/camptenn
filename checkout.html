@@ -15,7 +15,7 @@
   <!-- navbar -->
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <a href="#" class="navbar-brand">
+      <a href="index.html" class="navbar-brand">
         <img src="/frontend/image/logo.png" alt="Logo CampTeen" height="30px">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,24 +23,15 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto text-center">
-          <li class="nav-item mr-lg-4 mr-sm-0">
-            <a href="#" class="nav-link active">Home</a>
-          </li>
-          <li class="nav-item mr-lg-4 mr-sm-0">
-            <a href="#" class="nav-link">Foods</a>
-          </li>
-          <li class="nav-item mr-lg-4 mr-sm-0">
-            <a href="#" class="nav-link">Drinks</a>
-          </li>
+          <!-- Mobile Button -->
+          <a href="#" class="d-sm-block d-md-none btn btn-login btn-block ml-sm-0">
+            Login
+          </a>
+          <!-- Dekstop Button -->
+          <a href="#" class="my-2 my-lg-0 d-none d-md-block btn btn-login ml-lg-4">
+            Login
+          </a>
         </ul>
-        <!-- Mobile Button -->
-        <a href="#" class="d-sm-block d-md-none btn btn-login btn-block ml-sm-0">
-          Login
-        </a>
-        <!-- Dekstop Button -->
-        <a href="#" class="my-2 my-lg-0 d-none d-md-block btn btn-login ml-lg-4">
-          Login
-        </a>
       </div>
     </nav>
   </div>
@@ -96,6 +87,19 @@
                       </div>
                       <div class="form-row">
                         <div class="form-group col-3">
+                          <label for="metodebayar">Metode Pembayaran</label>
+                        </div>
+                        <div class="form-group col-5">
+                          <select name="metodebayar" id="metodebayar" class="form-control">
+                            <option value="COD">COD</option>
+                            <option value="DANA">DANA</option>
+                            <option value="OVO">OVO</option>
+                            <option value="Transfer Via Bank">Transfer Via Bank</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-3">
                           <label for="qty">Kuantitas</label>
                         </div>
                         <div class="form-group col-3">
@@ -104,6 +108,33 @@
                       </div>
                       <a href="success.html" type="button" class="btn btn-order px-4 py-2">Order Sekarang</a>
                     </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-profil mt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="card shadow">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-12 col-lg-3">
+                    <h5>Aneka Salad</h5>
+                    <button type="button" class="btn btn-chat px-4 py-2">Chat Penjual</button>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                    <p>Penilaian : 150</p>
+                    <p>Produk : 5</p>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <p>Alamat :</p>
+                    <p>Jalan Sisingamangaraja Gg.Sepakat</p>
                   </div>
                 </div>
               </div>

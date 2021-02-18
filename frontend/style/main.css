@@ -3,16 +3,6 @@ body {
   background-color: #ffffff;
 }
 
-.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
-  color: #8B8BA5;
-  font-size: 18px;
-}
-
-.navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active {
-  font-weight: 500;
-  color: #272042;
-}
-
 .navbar .navbar-collapse .btn-login {
   background-color: #FBE0DC;
   padding: 14px 54px;
@@ -119,6 +109,16 @@ body {
   color: #8B8BA5;
 }
 
+.section-kategori .btn-load-more {
+  background-color: #FBE0DC;
+  color: #757588;
+}
+
+.section-kategori .btn-load-more:hover {
+  background-color: #fad1ca;
+  color: #757588;
+}
+
 footer {
   margin-top: 100px;
 }
@@ -176,6 +176,24 @@ footer a:hover {
 .section-details .card .btn-order:hover {
   background-color: #face49;
   color: #272042;
+}
+
+.section-profil h5 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.section-profil p {
+  font-size: 17px;
+  color: #8B8BA5;
+}
+
+.section-profil .btn-chat {
+  background-color: #FBE0DC;
+}
+
+.section-profil .btn-chat:hover {
+  background-color: #fad1ca;
 }
 
 .section-success {
